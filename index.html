@@ -95,13 +95,19 @@
         width: 100%;
         display: inline-grid;
         gap: 0.5em;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .hebrew-btn {
         width: 100%;
         font-size: larger;
         font-family: "Noto Sans Hebrew";
+    }
+
+    @media screen and (max-width: 400px) {
+        #hebrew-btn-holder {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
 </style>
 <script>
