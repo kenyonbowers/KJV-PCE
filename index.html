@@ -98,9 +98,11 @@
         const queryInput = document.getElementById("query-input");
         for(let i = 0; i <= 35; i++){
             document.getElementById(i).addEventListener("click", (event)=>{
-                console.log(window.location.search.substring(1))
                 queryInput.value += event.target.innerHTML.split("<br>")[0]
             })
         }
+        document.getElementById("search-btn").addEventListener("click", ()=>{
+            window.location = `./search.html?q=${queryInput.value}`
+        })
     </script>
 </html>
