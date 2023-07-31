@@ -118,7 +118,10 @@
         })
     }
     document.getElementById("search-btn").addEventListener("click", () => {
-        window.location = `./search.html?q=${queryInput.value}`
+        window.location = `./search.html?q=${queryInput.value.trim()}`
+    })
+    document.getElementById("back-btn").addEventListener("click", () => {
+        queryInput.value = queryInput.value.slice(0, -1);
     })
 </script>
 

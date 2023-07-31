@@ -6,6 +6,8 @@
         <title>MT Search</title>
     </head>
     <body>
+        <p id="big-text">Loading...</p>
+        <hr>
         <div id="text"></div>
         <script>
             var query = decodeURIComponent(window.location.search.substring(1).split("q=")[1].trim()).split(" ");
@@ -1206,6 +1208,7 @@
                             if (i == books.length - 1 && ii == book[1].length - 1 && iii == data.verses.length - 1) {
                                 const sortedVerses = await verses.sort(compareVerses);
                                 document.getElementById("text").innerHTML = verses.join("");
+                                document.getElementById("big-text").innerHTML = `Found ${verses.length} Verses Containing <b>${q.join(" ,")}</b>`
                             }
                         })
                     })
@@ -1217,6 +1220,9 @@
             @font-face {
                 font-family: 'Noto Sans Hebrew';
                 src: url('./fonts/NotoSansHebrew.ttf');
+            }
+            #big-text {
+                font-family: 'Noto Sans Hebrew';
             }
             #text {
                 font-family: 'Noto Sans Hebrew';
