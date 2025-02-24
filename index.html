@@ -11,50 +11,8 @@
     <div id="wrapper">
         <div id="search-holder">
             <input type="text" id="query-input" />
-            <button id="search-btn">[ | ]</button>
-            <button id="back-btn">
-                < | ]</button>
+            <button id="search-btn">Search</button>
         </div>
-        <div id="hebrew-btn-holder">
-            <button class="hebrew-btn" id="0"> <br>Space</button>
-            <button class="hebrew-btn" id="1">א<br>Alef</button>
-            <button class="hebrew-btn" id="2">בּ<br>Bet</button>
-            <button class="hebrew-btn" id="3">ב<br>Vet</button>
-            <button class="hebrew-btn" id="4">גּ<br>Gimel</button>
-            <button class="hebrew-btn" id="5">ג<br>Gimel</button>
-            <button class="hebrew-btn" id="6">דּ<br>Dalet</button>
-            <button class="hebrew-btn" id="7">ד<br>Dalet</button>
-            <button class="hebrew-btn" id="8">ה<br>He</button>
-            <button class="hebrew-btn" id="9">ו<br>Vav</button>
-            <button class="hebrew-btn" id="10">ז<br>Zayin</button>
-            <button class="hebrew-btn" id="11">ח<br>Chet</button>
-            <button class="hebrew-btn" id="12">ט<br>Tet</button>
-            <button class="hebrew-btn" id="13">י<br>Yod</button>
-            <button class="hebrew-btn" id="14">כּ<br>Kaf</button>
-            <button class="hebrew-btn" id="15">כ<br>Kaf</button>
-            <button class="hebrew-btn" id="16">ךּ<br>Kaf</button>
-            <button class="hebrew-btn" id="17">ך<br>Kaf</button>
-            <button class="hebrew-btn" id="18">ל<br>Lamed</button>
-            <button class="hebrew-btn" id="19">מ<br>Mem</button>
-            <button class="hebrew-btn" id="20">ם<br>Mem</button>
-            <button class="hebrew-btn" id="21">נ<br>Nun</button>
-            <button class="hebrew-btn" id="22">ן<br>Nun</button>
-            <button class="hebrew-btn" id="23">ס<br>Samekh</button>
-            <button class="hebrew-btn" id="24">ע<br>Ayin</button>
-            <button class="hebrew-btn" id="25">פּ<br>Pe</button>
-            <button class="hebrew-btn" id="26">פ<br>Pe</button>
-            <button class="hebrew-btn" id="27">ףּ<br>Pe</button>
-            <button class="hebrew-btn" id="28">ף<br>Pe</button>
-            <button class="hebrew-btn" id="29">צ<br>Tsadi</button>
-            <button class="hebrew-btn" id="30">ץ<br>Tsadi</button>
-            <button class="hebrew-btn" id="31">ק<br>Qof</button>
-            <button class="hebrew-btn" id="32">ר<br>Resh</button>
-            <button class="hebrew-btn" id="33">שׁ<br>Shin</button>
-            <button class="hebrew-btn" id="34">שׂ<br>Shin</button>
-            <button class="hebrew-btn" id="35">תּ<br>Tav</button>
-            <button class="hebrew-btn" id="36">ת<br>Tav</button>
-        </div>
-    </div>
 </body>
 <style>
     @font-face {
@@ -85,30 +43,6 @@
         margin-right: 0.5em;
         width: 2.5em;
     }
-
-    #back-btn {
-        width: 2.5em;
-    }
-
-    #hebrew-btn-holder {
-        margin-top: 0.5em;
-        width: 100%;
-        display: inline-grid;
-        gap: 0.5em;
-        grid-template-columns: repeat(5, 1fr);
-    }
-
-    .hebrew-btn {
-        width: 100%;
-        font-size: larger;
-        font-family: "Noto Sans Hebrew";
-    }
-
-    @media screen and (max-width: 400px) {
-        #hebrew-btn-holder {
-            grid-template-columns: repeat(3, 1fr);
-        }
-    }
 </style>
 <script>
     const queryInput = document.getElementById("query-input");
@@ -119,9 +53,6 @@
     }
     document.getElementById("search-btn").addEventListener("click", () => {
         window.location = `./search.html?q=${queryInput.value.trim()}`
-    })
-    document.getElementById("back-btn").addEventListener("click", () => {
-        queryInput.value = queryInput.value.slice(0, -1);
     })
 </script>
 
