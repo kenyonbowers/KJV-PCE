@@ -1572,7 +1572,7 @@
             var verses = [];
             await Promise.all(books.map(async (book) => {
                 await Promise.all(book[1].map(async (chapter, ii) => {
-                    var data = await fetch(`https://github.com/kenyonbowers/KJV-PCE/blob/main/Bible/${book[0]}/${ii + 1}.json`);
+                    var data = await fetch(`./Bible/${book[0]}/${ii + 1}.json`);
                     data = await data.json();
                     await Promise.all(data.verses.map(async (verse) => {
                         let num = 0;
