@@ -1397,6 +1397,14 @@
                 ]
             ],
             [
+                "TIT",
+                [
+                    1,
+                    2,
+                    3
+                ]
+            ],
+            [
                 "PHM",
                 [
                     1
@@ -1524,7 +1532,7 @@
             PSA: 19,
             PRO: 20,
             ECC: 21,
-            'SNG': 22,
+            SNG: 22,
             ISA: 23,
             JER: 24,
             LAM: 25,
@@ -1542,55 +1550,45 @@
             HAG: 37,
             ZEC: 38,
             MAL: 39,
-            MAT: 28,
-            MRK: 16,
-            LUK: 24,
-            JHN: 21,
-            ACT: 28,
-            ROM: 16,
-            '1CO': 16,
-            '2CO': 13,
-            GAL: 6,
-            EPH: 6,
-            PHP: 4,
-            COL: 4,
-            '1TH': 5,
-            '2TH': 3,
-            '1TI': 6,
-            '2TI': 3,
-            PHM: 1,
-            HEB: 13,
-            JAS: 3,
-            '1PE': 5,
-            '2PE': 3,
-            '1JN': 5,
-            '2JN': 1,
-            '3JN': 1,
-            JUD: 1,
-            REV: 28
+            MAT: 40,
+            MRK: 41,
+            LUK: 42,
+            JHN: 43,
+            ACT: 44,
+            ROM: 45,
+            '1CO': 46,
+            '2CO': 47,
+            GAL: 48,
+            EPH: 49,
+            PHP: 50,
+            COL: 51,
+            '1TH': 52,
+            '2TH': 53,
+            '1TI': 54,
+            '2TI': 55,
+            TIT: 56,
+            PHM: 57,
+            HEB: 58,
+            JAS: 59,
+            '1PE': 60,
+            '2PE': 61,
+            '1JN': 62,
+            '2JN': 63,
+            '3JN': 64,
+            JUD: 65,
+            REV: 66
         };
 
-        function compareVerses(verse1, verse2) {
-            const [, book1, chapter1, verseNum1] = verse1.match(/(\w+) (\d+):(\d+)/);
-            const [, book2, chapter2, verseNum2] = verse2.match(/(\w+) (\d+):(\d+)/);
-
-            const bookOrder1 = bookOrder[book1];
-            const bookOrder2 = bookOrder[book2];
-
-            if (bookOrder1 !== bookOrder2)
-                return bookOrder1 - bookOrder2;
-
-
-            if (parseInt(chapter1) !== parseInt(chapter2))
-                return parseInt(chapter1) - parseInt(chapter2);
-
-
-            return parseInt(verseNum1) - parseInt(verseNum2);
+        function compareVerses(a, b) {
+            if (a.order !== b.order) return a.order - b.order;
+            if (a.chapter !== b.chapter) return a.chapter - b.chapter;
+            return a.verseNum - b.verseNum;
         }
 
         async function getResource(q) {
             var verses = [];
             await Promise.all(books.map(async (book) => {
+                if (!bookOrder[book[0]]) return;
                 await Promise.all(book[1].map(async (chapter, ii) => {
                     var data = await fetch(`./Bible/${book[0]}/${ii + 1}.json`);
                     data = await data.json();
@@ -1599,34 +1597,28 @@
                         q.forEach((qq) => {
                             let isWildcard = qq.endsWith('*');
                             let searchTerm = isWildcard ? qq.slice(0, -1) : qq;
-
-                            // Create a regex pattern for inclusive search if it's a wildcard
-                            let regex = isWildcard ? new RegExp(`\\b${searchTerm}\\w*`, 'g') : new RegExp(`\\b${searchTerm}\\b`, 'g');
+                            let regex = isWildcard ? new RegExp(`\\b${searchTerm}\\w*`, 'gi') : new RegExp(`\\b${searchTerm}\\b`, 'gi');
 
                             if (verse.text.match(regex)) {
-                                verse.text = verse.text.split(" ").map(word => {
-                                    if (isWildcard && word.startsWith(searchTerm)) {
-                                        return `<b>${word}</b>`;
-                                    } else if (!isWildcard && word === searchTerm) {
-                                        return `<b>${word}</b>`;
-                                    }
-                                    return word;
-                                }).join(" ");
-
-                                // Highlight all occurrences of the search term in the verse text
                                 verse.text = verse.text.replace(regex, match => `<b>${match}</b>`);
                                 num++;
                             }
                         });
                         if (num === q.length) {
-                            verses.push(`${verse.book_name} ${ii + 1}:${verse.verse} - ${verse.text}<br>`);
+                            verses.push({
+                                order: bookOrder[book[0]] || 999,
+                                chapter: parseInt(ii + 1),
+                                verseNum: parseInt(verse.verse),
+                                text: `<p><b>${book[0]} ${ii + 1}:${verse.verse}</b> - ${verse.text}</p>`
+                            });
                         }
                     }));
                 }));
             }));
 
-            const sortedVerses = verses.sort(compareVerses);
-            document.getElementById("text").innerHTML = sortedVerses.join("");
+            verses.sort(compareVerses);
+
+            document.getElementById("text").innerHTML = verses.map(v => v.text).join("\n");
             document.getElementById("big-text").innerHTML = `Found ${verses.length} Verses Containing <b>${q.join(", ")}</b>`;
         }
 
@@ -1660,6 +1652,11 @@
             text-align: left;
             max-width: 800px;
             margin: 0 auto;
+        }
+
+        p {
+            margin-bottom: 10px;
+            line-height: 1.5;
         }
 
         b {
