@@ -1619,7 +1619,7 @@
             verses.sort(compareVerses);
 
             document.getElementById("text").innerHTML = verses.map(v => v.text).join("\n");
-            document.getElementById("big-text").innerHTML = `Found ${verses.length} Verses Containing <b>${q.join(", ")}</b>`;
+            document.getElementById("big-text").innerHTML = `Found ${verses.length} Verses Containing "<b>${q.join('</b>" AND "<b>')}</b>"`;
         }
 
         getResource(query);
