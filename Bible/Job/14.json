@@ -6,7 +6,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 1,
-      "text": "אדם ילוד אשה קצר ימים ושבערגז",
+      "text": "Man <i>that is</i> born of a woman <i>is</i> of few days, and full of trouble.",
       "header": "",
       "footer": ""
     },
@@ -14,7 +14,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 2,
-      "text": "כציץ יצא וימל ויברח כצל ולא יעמוד",
+      "text": "He cometh forth like a flower, and is cut down: he fleeth also as a shadow, and continueth not.",
       "header": "",
       "footer": ""
     },
@@ -22,7 +22,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 3,
-      "text": "אףעלזה פקחת עינך ואתי תביא במשפט עמך",
+      "text": "And dost thou open thine eyes upon such an one, and bringest me into judgment with thee?",
       "header": "",
       "footer": ""
     },
@@ -30,7 +30,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 4,
-      "text": "מייתן טהור מטמא לא אחד",
+      "text": "Who can bring a clean <i>thing</i> out of an unclean? not one.",
       "header": "",
       "footer": ""
     },
@@ -38,7 +38,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 5,
-      "text": "אם חרוצים ימיו מספרחדשיו אתך חקו עשית ולא יעבור",
+      "text": "Seeing his days <i>are</i> determined, the number of his months <i>are</i> with thee, thou hast appointed his bounds that he cannot pass;",
       "header": "",
       "footer": ""
     },
@@ -46,7 +46,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 6,
-      "text": "שעה מעליו ויחדל עדירצה כשכיר יומו",
+      "text": "Turn from him, that he may rest, till he shall accomplish, as an hireling, his day.",
       "header": "",
       "footer": ""
     },
@@ -54,7 +54,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 7,
-      "text": "כי יש לעץ תקוה אםיכרת ועוד יחליף וינקתו לא תחדל",
+      "text": "For there is hope of a tree, if it be cut down, that it will sprout again, and that the tender branch thereof will not cease.",
       "header": "",
       "footer": ""
     },
@@ -62,7 +62,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 8,
-      "text": "אםיזקין בארץ שרשו ובעפר ימות גזעו",
+      "text": "Though the root thereof wax old in the earth, and the stock thereof die in the ground;",
       "header": "",
       "footer": ""
     },
@@ -70,7 +70,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 9,
-      "text": "מריח מים יפרח ועשה קציר כמונטע",
+      "text": "<i>Yet</i> through the scent of water it will bud, and bring forth boughs like a plant.",
       "header": "",
       "footer": ""
     },
@@ -78,7 +78,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 10,
-      "text": "וגבר ימות ויחלש ויגוע אדם ואיו",
+      "text": "But man dieth, and wasteth away: yea, man giveth up the ghost, and where <i>is</i> he?",
       "header": "",
       "footer": ""
     },
@@ -86,7 +86,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 11,
-      "text": "אזלומים מניים ונהר יחרב ויבש",
+      "text": "<i>As</i> the waters fail from the sea, and the flood decayeth and drieth up:",
       "header": "",
       "footer": ""
     },
@@ -94,7 +94,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 12,
-      "text": "ואיש שכב ולאיקום עדבלתי שמים לא יקיצו ולאיערו משנתם",
+      "text": "So man lieth down, and riseth not: till the heavens <i>be</i> no more, they shall not awake, nor be raised out of their sleep.",
       "header": "",
       "footer": ""
     },
@@ -102,7 +102,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 13,
-      "text": "מי יתן בשאול תצפנני תסתירני עדשוב אפך תשית לי חק ותזכרני",
+      "text": "O that thou wouldest hide me in the grave, that thou wouldest keep me secret, until thy wrath be past, that thou wouldest appoint me a set time, and remember me!",
       "header": "",
       "footer": ""
     },
@@ -110,7 +110,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 14,
-      "text": "אםימות גבר היחיה כלימי צבאי איחל עדבוא חליפתי",
+      "text": "If a man die, shall he live <i>again?</i> all the days of my appointed time will I wait, till my change come.",
       "header": "",
       "footer": ""
     },
@@ -118,7 +118,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 15,
-      "text": "תקרא ואנכי אענך למעשה ידיך תכסף",
+      "text": "Thou shalt call, and I will answer thee: thou wilt have a desire to the work of thine hands.",
       "header": "",
       "footer": ""
     },
@@ -126,7 +126,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 16,
-      "text": "כיעתה צעדי תספור לאתשמור עלחטאתי",
+      "text": "For now thou numberest my steps: dost thou not watch over my sin?",
       "header": "",
       "footer": ""
     },
@@ -134,7 +134,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 17,
-      "text": "חתם בצרור פשעי ותטפל עלעוני",
+      "text": "My transgression <i>is</i> sealed up in a bag, and thou sewest up mine iniquity.",
       "header": "",
       "footer": ""
     },
@@ -142,7 +142,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 18,
-      "text": "ואולם הרנופל יבול וצור יעתק ממקמו",
+      "text": "And surely the mountain falling cometh to nought, and the rock is removed out of his place.",
       "header": "",
       "footer": ""
     },
@@ -150,7 +150,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 19,
-      "text": "אבנים שחקו מים תשטףספיחיה עפרארץ ותקות אנוש האבדת",
+      "text": "The waters wear the stones: thou washest away the things which grow <i>out</i> of the dust of the earth; and thou destroyest the hope of man.",
       "header": "",
       "footer": ""
     },
@@ -158,7 +158,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 20,
-      "text": "תתקפהו לנצח ויהלך משנה פניו ותשלחהו",
+      "text": "Thou prevailest for ever against him, and he passeth: thou changest his countenance, and sendest him away.",
       "header": "",
       "footer": ""
     },
@@ -166,7 +166,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 21,
-      "text": "יכבדו בניו ולא ידע ויצערו ולאיבין למו",
+      "text": "His sons come to honour, and he knoweth <i>it</i> not; and they are brought low, but he perceiveth <i>it</i> not of them.",
       "header": "",
       "footer": ""
     },
@@ -174,7 +174,7 @@
       "book_name": "Job",
       "chapter": 14,
       "verse": 22,
-      "text": "אךבשרו עליו יכאב ונפשו עליו תאבל פ",
+      "text": "But his flesh upon him shall have pain, and his soul within him shall mourn.",
       "header": "",
       "footer": ""
     }

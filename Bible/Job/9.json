@@ -6,7 +6,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 1,
-      "text": "ויען איוב ויאמר",
+      "text": "Then Job answered and said,",
       "header": "",
       "footer": ""
     },
@@ -14,7 +14,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 2,
-      "text": "אמנם ידעתי כיכן ומהיצדק אנוש עםאל",
+      "text": "I know <i>it is</i> so of a truth: but how should man be just with God?",
       "header": "",
       "footer": ""
     },
@@ -22,7 +22,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 3,
-      "text": "אםיחפץ לריב עמו לאיעננו אחת מניאלף",
+      "text": "If he will contend with him, he cannot answer him one of a thousand.",
       "header": "",
       "footer": ""
     },
@@ -30,7 +30,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 4,
-      "text": "חכם לבב ואמיץ כח מיהקשה אליו וישלם",
+      "text": "<i>He is</i> wise in heart, and mighty in strength: who hath hardened <i>himself</i> against him, and hath prospered?",
       "header": "",
       "footer": ""
     },
@@ -38,7 +38,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 5,
-      "text": "המעתיק הרים ולא ידעו אשר הפכם באפו",
+      "text": "Which removeth the mountains, and they know not: which overturneth them in his anger.",
       "header": "",
       "footer": ""
     },
@@ -46,7 +46,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 6,
-      "text": "המרגיז ארץ ממקומה ועמודיה יתפלצון",
+      "text": "Which shaketh the earth out of her place, and the pillars thereof tremble.",
       "header": "",
       "footer": ""
     },
@@ -54,7 +54,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 7,
-      "text": "האמר לחרס ולא יזרח ובעד כוכבים יחתם",
+      "text": "Which commandeth the sun, and it riseth not; and sealeth up the stars.",
       "header": "",
       "footer": ""
     },
@@ -62,7 +62,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 8,
-      "text": "נטה שמים לבדו ודורך עלבמתי ים",
+      "text": "Which alone spreadeth out the heavens, and treadeth upon the waves of the sea.",
       "header": "",
       "footer": ""
     },
@@ -70,7 +70,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 9,
-      "text": "עשהעש כסיל וכימה וחדרי תמן",
+      "text": "Which maketh Arcturus, Orion, and Pleiades, and the chambers of the south.",
       "header": "",
       "footer": ""
     },
@@ -78,7 +78,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 10,
-      "text": "עשה גדלות עדאין חקר ונפלאות עדאין מספר",
+      "text": "Which doeth great things past finding out; yea, and wonders without number.",
       "header": "",
       "footer": ""
     },
@@ -86,7 +86,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 11,
-      "text": "הן יעבר עלי ולא אראה ויחלף ולאאבין לו",
+      "text": "Lo, he goeth by me, and I see <i>him</i> not: he passeth on also, but I perceive him not.",
       "header": "",
       "footer": ""
     },
@@ -94,7 +94,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 12,
-      "text": "הן יחתף מי ישיבנו מייאמר אליו מהתעשה",
+      "text": "Behold, he taketh away, who can hinder him? who will say unto him, What doest thou?",
       "header": "",
       "footer": ""
     },
@@ -102,7 +102,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 13,
-      "text": "אלוה לאישיב אפו תחתו שחחו עזרי רהב",
+      "text": "<i>If</i> God will not withdraw his anger, the proud helpers do stoop under him.",
       "header": "",
       "footer": ""
     },
@@ -110,7 +110,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 14,
-      "text": "אף כיאנכי אעננו אבחרה דברי עמו",
+      "text": "How much less shall I answer him, <i>and</i> choose out my words <i>to reason</i> with him?",
       "header": "",
       "footer": ""
     },
@@ -118,7 +118,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 15,
-      "text": "אשר אםצדקתי לא אענה למשפטי אתחנן",
+      "text": "Whom, though I were righteous, <i>yet</i> would I not answer, <i>but</i> I would make supplication to my judge.",
       "header": "",
       "footer": ""
     },
@@ -126,7 +126,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 16,
-      "text": "אםקראתי ויענני לאאאמין כייאזין קולי",
+      "text": "If I had called, and he had answered me; <i>yet</i> would I not believe that he had hearkened unto my voice.",
       "header": "",
       "footer": ""
     },
@@ -134,7 +134,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 17,
-      "text": "אשרבשערה ישופני והרבה פצעי חנם",
+      "text": "For he breaketh me with a tempest, and multiplieth my wounds without cause.",
       "header": "",
       "footer": ""
     },
@@ -142,7 +142,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 18,
-      "text": "לאיתנני השב רוחי כי ישבעני ממררים",
+      "text": "He will not suffer me to take my breath, but filleth me with bitterness.",
       "header": "",
       "footer": ""
     },
@@ -150,7 +150,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 19,
-      "text": "אםלכח אמיץ הנה ואםלמשפט מי יועידני",
+      "text": "If <i>I speak</i> of strength, lo, <i>he is</i> strong: and if of judgment, who shall set me a time <i>to plead?</i>",
       "header": "",
       "footer": ""
     },
@@ -158,7 +158,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 20,
-      "text": "אםאצדק פי ירשיעני תםאני ויעקשני",
+      "text": "If I justify myself, mine own mouth shall condemn me: <i>if I say,</i> I <i>am</i> perfect, it shall also prove me perverse.",
       "header": "",
       "footer": ""
     },
@@ -166,7 +166,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 21,
-      "text": "תםאני לאאדע נפשי אמאס חיי",
+      "text": "<i>Though</i> I <i>were</i> perfect, <i>yet</i> would I not know my soul: I would despise my life.",
       "header": "",
       "footer": ""
     },
@@ -174,7 +174,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 22,
-      "text": "אחת היא עלכן אמרתי תם ורשע הוא מכלה",
+      "text": "This <i>is</i> one <i>thing,</i> therefore I said <i>it,</i> He destroyeth the perfect and the wicked.",
       "header": "",
       "footer": ""
     },
@@ -182,7 +182,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 23,
-      "text": "אםשוט ימית פתאם למסת נקים ילעג",
+      "text": "If the scourge slay suddenly, he will laugh at the trial of the innocent.",
       "header": "",
       "footer": ""
     },
@@ -190,7 +190,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 24,
-      "text": "ארץ נתנה בידרשע פנישפטיה יכסה אםלא אפוא מיהוא",
+      "text": "The earth is given into the hand of the wicked: he covereth the faces of the judges thereof; if not, where, <i>and</i> who <i>is</i> he?",
       "header": "",
       "footer": ""
     },
@@ -198,7 +198,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 25,
-      "text": "וימי קלו מנירץ ברחו לאראו טובה",
+      "text": "Now my days are swifter than a post: they flee away, they see no good.",
       "header": "",
       "footer": ""
     },
@@ -206,7 +206,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 26,
-      "text": "חלפו עםאניות אבה כנשר יטוש עליאכל",
+      "text": "They are passed away as the swift ships: as the eagle <i>that</i> hasteth to the prey.",
       "header": "",
       "footer": ""
     },
@@ -214,7 +214,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 27,
-      "text": "אםאמרי אשכחה שיחי אעזבה פני ואבליגה",
+      "text": "If I say, I will forget my complaint, I will leave off my heaviness, and comfort <i>myself:</i>",
       "header": "",
       "footer": ""
     },
@@ -222,7 +222,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 28,
-      "text": "יגרתי כלעצבתי ידעתי כילא תנקני",
+      "text": "I am afraid of all my sorrows, I know that thou wilt not hold me innocent.",
       "header": "",
       "footer": ""
     },
@@ -230,7 +230,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 29,
-      "text": "אנכי ארשע למהזה הבל איגע",
+      "text": "<i>If</i> I be wicked, why then labour I in vain?",
       "header": "",
       "footer": ""
     },
@@ -238,7 +238,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 30,
-      "text": "אםהתרחצתי במושלג והזכותי בבר כפי",
+      "text": "If I wash myself with snow water, and make my hands never so clean;",
       "header": "",
       "footer": ""
     },
@@ -246,7 +246,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 31,
-      "text": "אז בשחת תטבלני ותעבוני שלמותי",
+      "text": "Yet shalt thou plunge me in the ditch, and mine own clothes shall abhor me.",
       "header": "",
       "footer": ""
     },
@@ -254,7 +254,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 32,
-      "text": "כילאאיש כמני אעננו נבוא יחדו במשפט",
+      "text": "For <i>he is</i> not a man, as I <i>am, that</i> I should answer him, <i>and</i> we should come together in judgment.",
       "header": "",
       "footer": ""
     },
@@ -262,7 +262,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 33,
-      "text": "לא ישבינינו מוכיח ישת ידו עלשנינו",
+      "text": "Neither is there any daysman betwixt us, <i>that</i> might lay his hand upon us both.",
       "header": "",
       "footer": ""
     },
@@ -270,7 +270,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 34,
-      "text": "יסר מעלי שבטו ואמתו אלתבעתני",
+      "text": "Let him take his rod away from me, and let not his fear terrify me:",
       "header": "",
       "footer": ""
     },
@@ -278,7 +278,7 @@
       "book_name": "Job",
       "chapter": 9,
       "verse": 35,
-      "text": "אדברה ולא איראנו כי לאכן אנכי עמדי",
+      "text": "<i>Then</i> would I speak, and not fear him; but <i>it is</i> not so with me.",
       "header": "",
       "footer": ""
     }
